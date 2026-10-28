@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "skills": {
+    "citation-verification": {
+      "source": "KalarisLabs/research-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/citation-verification/SKILL.md",
+      "computedHash": "187b7297905f14c09daf3144be2d52a0cdd8aaf41b80404d664be5d7f656e0bb"
+    },
+    "literature-review": {
+      "source": "KalarisLabs/research-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/literature-review/SKILL.md",
+      "computedHash": "07c6f6f05aebf0bfb812fffec9bc1cdda0434d48960c38dd32126ff6067b055f"
+    },
+    "peer-review": {
+      "source": "KalarisLabs/research-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/peer-review/SKILL.md",
+      "computedHash": "992e61ca475b67b44f5d48b0eb0cc9e5a234fe9df901eadee458d639c3fde097"
+    },
+    "scientific-critical-thinking": {
+      "source": "KalarisLabs/research-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/scientific-critical-thinking/SKILL.md",
+      "computedHash": "807a866bd37c8f2c4c81b9d618387228ded6f5c9c08915bfd39557fe634e0b3d"
+    },
+    "scientific-writing": {
+      "source": "KalarisLabs/research-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/scientific-writing/SKILL.md",
+      "computedHash": "add1d0496b60acc6fe0dabbd0af10889c8a73eeb18773f7cd345cafc621c2a86"
+    },
+    "unslop-academic-writing": {
+      "source": "KalarisLabs/research-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/unslop-academic-writing/SKILL.md",
+      "computedHash": "6160a441b90159c9356be996474bb7b7fe4eefaebca422616b8ee2caeaa787d9"
+    }
+  }
+}
