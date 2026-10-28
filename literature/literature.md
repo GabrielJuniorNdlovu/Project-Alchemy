@@ -83,4 +83,24 @@
 - Links were checked against publisher, PubMed, institutional or scholarly records where possible. Certain earlier broad references lacked a unique exact title and are therefore not treated as verified citations.
 - Some papers were first published online in one calendar year and assigned to a journal issue in the following year; both dates are noted in the relevant entry.
 
-**Total identified papers: 40**
+**Original entries retained: 40**
+
+
+## Artifact-category identification and classification: additions from migration
+
+These additions are targeted against the new topic. “Full text reviewed” describes the source inspection in this migration; metadata-only/abstract-only records are identified accordingly. The original 40 entries above are retained unchanged. Newly added sources are additional records; verification depth is stated per entry.
+
+- **A Systematic Review of Techniques for Artifact Detection and Artifact Category Identification in Electroencephalography from Wearable Devices** (2025). Pasquale Arpaia et al.; *Sensors*, 25(18), 5770. DOI: [10.3390/s25185770](https://doi.org/10.3390/s25185770). Relevance: wearable-focused methods, taxonomy and metrics; identified prior category/source studies; search ended 24 April 2025. **Verification: publisher/PMC full text reviewed.**
+- **Recording and Characterization of EEGs by Using Wearable EEG Device** (2019). Ryo Goto, Ryo Inoue et al.; 2019 19th International Conference on Control, Automation and Systems, 194–197. DOI: [10.23919/ICCAS47443.2019.8971564](https://doi.org/10.23919/ICCAS47443.2019.8971564). Relevance: wearable blink, lateral eye movement and EMG detection. **Verification: bibliographic/abstract record reviewed; full text not reviewed.**
+- **Automatic Removal of Multiple Artifacts for Single-Channel Electroencephalography** (2022). Chenbei Zhang, Nabil Sabor, Junwen Luo, Yu Pu, Guoxing Wang and Yong Lian; *Journal of Shanghai Jiao Tong University (Science)*, 27(4), 437–451. DOI: [10.1007/s12204-021-2374-5](https://doi.org/10.1007/s12204-021-2374-5). Relevance: category-aware staged processing for ocular, line/harmonic and muscle artifact in a single channel. **Verification: publisher record and abstract reviewed; full methods not reviewed.**
+- **A gated artifact management pipeline for low-density eyewear EEG** (2026). Andrea Costanzo Palmisciano et al.; *Physiological Measurement*, 47(9). DOI: [10.1088/1361-6579/ae99ab](https://doi.org/10.1088/1361-6579/ae99ab). Relevance: direct wearable artifact detection, three-class discrimination and correction competitor. **Verification: PubMed abstract and publisher-indexed sections reviewed; code not audited.**
+- **Automatic EEG artifact detection using a local-global feature fusion network in time and time-frequency domains** (2026). Qindong Yu, Chuan Lin, Weibo Wang, Zhanhui Feng et al.; *Acta Epileptologica*, 8, art. 7. DOI: [10.1186/s42494-026-00248-4](https://doi.org/10.1186/s42494-026-00248-4). Relevance: multi-class TUAR clinical artifact classification and cross-dataset clinical evaluation. **Verification: publisher full text and author record reviewed; author list abbreviated.**
+- **Temple University EEG Corpus (TUAR v3.0.1) documentation.** Neural Engineering Data Consortium. [Official access page](https://isip.piconepress.com/projects/nedc/html/tuh_eeg/). Relevance: five artifact labels and application-based access. **Verification: official documentation reviewed; corpus contents, license/data-use agreement and class distributions not inspected.**
+
+## Topic groups for prior records
+
+The existing records are retained in their original 40-entry organization to avoid lossy rewriting. For artifact-related material, consult the existing “EEG artifacts, noise, signal quality and wearable reliability” group and the additions above. The calibration-focused group remains as historical background, not the active topic.
+
+## Migration verification note
+
+Targeted search date: 29 October 2026. Queries are recorded in `chapters/chapter1_literature_matrix.md`. Search-result snippets were not treated as final evidence; publisher, PubMed, PMC or official corpus records were opened. This was not a systematic review. Consensus was quota-limited and Zotero local API access unavailable in the prior audit. No claim is made that all 40 original bibliography items were reverified in this migration.
