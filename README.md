@@ -1,18 +1,26 @@
-# Project-Alchemy — EEG signal-quality research
+# Project-Alchemy
 
-This University of Zimbabwe Computer Engineering capstone workspace is provisionally focused on **artifact-category identification in EEG as a signal-quality triage component relevant to non-invasive BCIs**. The current candidate is a subject-disjoint, compute-aware comparison of compact classifiers on TUAR labels. Its originality is not established; 2026 work already covers low-density wearable category classification and TUAR multi-class classification.
+The intended system is a wearable eight-channel motor-imagery BCI using personally acquired EEG across multiple sessions, with live Raspberry Pi 4 processing for predefined robotic-arm control and computer interaction. The research investigates risk-aware selective decoding and the balance between incorrect accepted commands and command availability.
 
-The live EEG acquisition prototype is a hard feasibility gate. No complete safe system, institutional access, or total Zimbabwe-delivered cost within the US$300 hardware ceiling is confirmed. Public clinical EEG analysis or stored-data replay does not count as wearable validation or live acquisition.
+## Read first
 
-## Research documents
+- [goal.md](goal.md): authoritative research and engineering specification.
+- [AGENTS.md](AGENTS.md): persistent instructions for future writing.
+- [sections/README.md](sections/README.md): canonical chapter drafts, review status and assembly rules.
+- [chapters/research_viability.md](chapters/research_viability.md): hardware evidence and resource blockers.
+- [chapters/research_migration_log.md](chapters/research_migration_log.md): migration record and file inventory.
+- [used_literature/citation_ledger.md](used_literature/citation_ledger.md): claim support and excluded historical sources.
 
-- `chapters/chapter1.md` — provisional Chapter 1, structured to DCE sections 1.1–1.12.
-- `chapters/chapter1_gap_analysis.md` — candidate gap comparison and originality risks.
-- `chapters/chapter1_literature_matrix.md` — targeted source/method evidence and verification depth.
-- `chapters/chapter1_review.md` — academic quality gates and required decisions.
-- `chapters/research_viability.md` — research, dataset, hardware, safety and approval assessment.
-- `chapters/research_migration_log.md` — rationale, preserved files and unresolved assumptions.
-- `chapters/archive/mi-calibration-2026-10-29/` — byte-preserved previous MI-calibration drafts.
-- `literature/literature.md` — retained discovery bibliography with artifact-focused additions and verification notes.
+## Status and source authority
 
-The specific engineering contribution, TUAR access and annotations, hardware access/budget, and ethics route require supervisor confirmation before the proposal is finalized.
+All revised section drafts await user review. They describe proposed work, not completed experiments. Live control is the intended final deliverable; replay is intermediate validation. Public EEG data are excluded from experimental development and evaluation.
+
+chapters/chapter1.md and chapters/chapter1.docx are preserved legacy snapshots containing incompatible artifact-classification and earlier MI material. Do not edit or cite them as current requirements. After section approval, the Markdown chapter may be assembled from sections and a Word copy generated using the institutional template. No current Word pagination claim is made.
+
+Original templates, proposal and example documents in references are preserved source material, not current scope authority. The proposal contains superseded assumptions. Existing archives and backups are historical only.
+
+## Preservation
+
+The pre-migration working state, including uncommitted chapter changes and untracked references, was copied to backups/live-scope-20261102-142458/. Its manifest records SHA256 hashes. No commit or push was made.
+
+The researcher reports a US$100 PiEEG-8 price and confirms that the complete setup, including delivery and import costs, fits within US$200. The project is financially feasible on that costing; independent supplier verification is not claimed. Equipment validation, approvals and the 16-week calendar remain separate implementation requirements; see the viability report.

@@ -1,0 +1,159 @@
+TY  - JOUR
+AU  - Brunner, Iris
+AU  - Lundquist, Camilla Biering
+AU  - Pedersen, Asger Roer
+AU  - Spaich, Erika G.
+AU  - Dosen, Strahinja
+AU  - Savic, Andrej
+PY  - 2024
+TI  - Brain computer interface training with motor imagery and functional electrical stimulation for patients with severe upper limb paresis after stroke: A randomized controlled pilot trial
+JO  - Journal of NeuroEngineering and Rehabilitation
+VL  - 21
+SP  - 10
+DO  - 10.1186/s12984-024-01304-1
+UR  - https://doi.org/10.1186/s12984-024-01304-1
+ER  -
+
+TY  - JOUR
+AU  - Ding, Yidan
+AU  - Udompanyawit, Chalisa
+AU  - Zhang, Yisha
+AU  - He, Bin
+PY  - 2025
+TI  - EEG-based brain-computer interface enables real-time robotic hand control at individual finger level
+JO  - Nature Communications
+VL  - 16
+SP  - 5401
+DO  - 10.1038/s41467-025-61064-x
+UR  - https://doi.org/10.1038/s41467-025-61064-x
+ER  -
+
+TY  - JOUR
+AU  - George, Olawunmi
+AU  - Dabas, Sarthak
+AU  - Sikder, Abdur
+AU  - Smith, Roger
+AU  - Madiraju, Praveen
+AU  - Yahyasoltani, Nasim
+AU  - Ahamed, Sheikh Iqbal
+PY  - 2022
+TI  - Enhancing motor imagery decoding via transfer learning
+JO  - Smart Health
+VL  - 26
+SP  - 100339
+DO  - 10.1016/j.smhl.2022.100339
+UR  - https://doi.org/10.1016/j.smhl.2022.100339
+ER  -
+
+TY  - JOUR
+AU  - Huang, Gan
+AU  - Zhao, Zhiheng
+AU  - Zhang, Shaorong
+AU  - Hu, Zhenxing
+AU  - Fan, Jiaming
+AU  - Fu, Meisong
+AU  - Chen, Jiale
+AU  - Xiao, Yaqiong
+AU  - Wang, Jun
+AU  - Dan, Guo
+PY  - 2023
+TI  - Discrepancy between inter- and intra-subject variability in EEG-based motor imagery brain-computer interface: Evidence from multiple perspectives
+JO  - Frontiers in Neuroscience
+VL  - 17
+SP  - 1122661
+DO  - 10.3389/fnins.2023.1122661
+UR  - https://doi.org/10.3389/fnins.2023.1122661
+ER  -
+
+TY  - JOUR
+AU  - Ma, Jun
+AU  - Yang, Banghua
+AU  - Qiu, Wenzheng
+AU  - Li, Yunzhe
+AU  - Gao, Shouwei
+AU  - Xia, Xinxing
+PY  - 2022
+TI  - A large EEG dataset for studying cross-session variability in motor imagery brain-computer interface
+JO  - Scientific Data
+VL  - 9
+SP  - 531
+DO  - 10.1038/s41597-022-01647-1
+UR  - https://doi.org/10.1038/s41597-022-01647-1
+N1  - Cited as academic context only. Public dataset excluded from Project-Alchemy experiments.
+ER  -
+
+TY  - CPAPER
+AU  - Manivannan, Prithviraj
+AU  - de Jong, Ivo Pascal
+AU  - Valdenegro-Toro, Matias
+AU  - Sburlea, Andreea Ioana
+PY  - 2024
+TI  - Uncertainty quantification for cross-subject motor imagery classification
+T2  - Proceedings of the 9th Graz Brain-Computer Interface Conference 2024
+SP  - 86
+EP  - 91
+PB  - Verlag der Technischen Universität Graz
+DO  - 10.3217/978-3-99161-014-4-016
+UR  - https://doi.org/10.3217/978-3-99161-014-4-016
+N1  - Peer-reviewed conference proceeding; not a journal article.
+ER  -
+
+TY  - JOUR
+AU  - Meng, Ming
+AU  - Dong, Zhichao
+AU  - Gao, Yunyuan
+AU  - She, Qingshan
+PY  - 2023
+TI  - Optimal channel and frequency band-based feature selection for motor imagery electroencephalogram classification
+JO  - International Journal of Imaging Systems and Technology
+VL  - 33
+IS  - 2
+SP  - 670
+EP  - 679
+DO  - 10.1002/ima.22823
+UR  - https://doi.org/10.1002/ima.22823
+ER  -
+
+TY  - JOUR
+AU  - Özkahraman, Ali
+AU  - Ölmez, Tamer
+AU  - Dokur, Zümray
+PY  - 2025
+TI  - Performance improvement with reduced number of channels in motor imagery BCI system
+JO  - Sensors
+VL  - 25
+IS  - 1
+SP  - 120
+DO  - 10.3390/s25010120
+UR  - https://doi.org/10.3390/s25010120
+N1  - Published online 28 December 2024; volume year 2025. Results use public datasets and do not establish this project's montage performance.
+ER  -
+
+TY  - JOUR
+AU  - Song, Minsu
+AU  - Jeong, Hojun
+AU  - Kim, Jongbum
+AU  - Jang, Sung-Ho
+AU  - Kim, Jonghyun
+PY  - 2022
+TI  - An EEG-based asynchronous MI-BCI system to reduce false positives with a small number of channels for neurorehabilitation: A pilot study
+JO  - Frontiers in Neurorobotics
+VL  - 16
+SP  - 971547
+DO  - 10.3389/fnbot.2022.971547
+UR  - https://doi.org/10.3389/fnbot.2022.971547
+ER  -
+
+TY  - JOUR
+AU  - Wu, Huanyu
+AU  - Li, Siyang
+AU  - Wu, Dongrui
+PY  - 2024
+TI  - Motor imagery classification for asynchronous EEG-based brain-computer interfaces
+JO  - IEEE Transactions on Neural Systems and Rehabilitation Engineering
+VL  - 32
+SP  - 527
+EP  - 536
+DO  - 10.1109/TNSRE.2024.3356916
+UR  - https://doi.org/10.1109/TNSRE.2024.3356916
+ER  -

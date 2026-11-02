@@ -1,0 +1,34 @@
+# Citation ledger
+
+Scope: active Chapter 1 section drafts, checked 2 November 2026. Minimum set now contains ten cited scholarly sources, all dated 2022 or later. `used_references.ris` is Zotero-importable. DOI/title/author/year metadata were checked against the publisher, PubMed or the conference repository; Codex's source checks are not a substitute for the author's final citation review. Public datasets mentioned by these papers are literature context only and remain excluded from Project-Alchemy experimental model development, calibration and evaluation.
+
+| Source | Section(s) | Claim supported in the draft | DOI and inspected original/authoritative source | Verification status |
+|---|---|---|---|---|
+| Brunner et al. (2024) | 1.8 | A randomized pilot of MI-BCI plus FES for severe post-stroke paresis reported no significant between-group difference on its primary functional outcome; supports cautious humanitarian framing | [DOI/publisher full text](https://doi.org/10.1186/s12984-024-01304-1); results and conclusion inspected | Published journal article; metadata and outcome checked; human check pending |
+| Ding et al. (2025) | 1.2, 1.8 | Online non-invasive EEG robotic-hand control has been demonstrated in a study of experienced users; supports application relevance, not performance expectations for this project | [DOI/publisher full text](https://doi.org/10.1038/s41467-025-61064-x); abstract, introduction, methods and discussion inspected | Published journal article; metadata and scope checked; human check pending |
+| George et al. (2022) | 1.2 | Transfer learning has been investigated for MI decoding across subjects/sessions; does not imply this project will use transfer learning | [DOI/publisher page](https://doi.org/10.1016/j.smhl.2022.100339); publisher abstract inspected | Published journal article; metadata and abstract-level claim checked; full article text not inspected in this pass; human check pending |
+| Huang et al. (2023) | 1.2, 1.3 | Within-person cross-session and between-person variability differ in signal/feature behaviour, supporting separate session evaluation | [DOI/PubMed record and abstract](https://doi.org/10.3389/fnins.2023.1122661); abstract and linked original record inspected | Published journal article; metadata and abstract-level claim checked; human check pending |
+| Ma et al. (2022) | 1.2, 1.3 | MI evaluation can distinguish within-session, cross-session and adaptation conditions; dataset is cited as methodological context only | [DOI](https://doi.org/10.1038/s41597-022-01647-1), [original full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC9436944/); methods and technical validation inspected | Published data descriptor; metadata and claim checked; its public dataset remains excluded; human check pending |
+| Manivannan et al. (2024) | 1.2, 1.3 | Uncertainty/rejection has been studied for MI classification; their cross-subject comparison found deep ensembles useful while standard softmax outputs exceeded some advanced methods | [DOI/conference proceedings](https://doi.org/10.3217/978-3-99161-014-4-016); peer-reviewed final-author paper and conference proceedings inspected | Published peer-reviewed conference paper, not a journal article; metadata and claim checked; human check pending |
+| Meng et al. (2023) | 1.2 | Channel and frequency-band selection are studied to manage MI feature dimensionality; does not establish the project's eight-channel montage | [DOI/publisher full abstract](https://doi.org/10.1002/ima.22823); method and reported results inspected | Published journal article; metadata and claim checked; human check pending |
+| Özkahraman et al. (2025) | 1.2 | Reduced-channel MI configurations have been evaluated; the draft explicitly limits the inference because the study used public datasets and EEG/EOG combinations | [DOI/publisher full text](https://doi.org/10.3390/s25010120); article text, methods and results inspected | Published journal article (online 2024; volume year 2025); metadata/version and claim checked; human check pending |
+| Song et al. (2022) | 1.2, 1.3 | A small-channel asynchronous MI-BCI study addressed false-positive detections; does not demonstrate the proposed project's reliability | [DOI/publisher full text](https://doi.org/10.3389/fnbot.2022.971547); abstract, introduction and methods inspected | Published pilot study; metadata and relevant text checked; human check pending |
+| Wu et al. (2024) | 1.2 | Asynchronous MI decoding separates rest-versus-imagery prescreening from imagery-class classification | [DOI/PubMed record and IEEE author PDF](https://doi.org/10.1109/TNSRE.2024.3356916); abstract and original accepted article inspected | Published journal article; metadata and claim checked; human check pending |
+
+APA 7 entries are in `../sections/References.md`. The RIS file contains the same ten records, with no duplicate DOI. The active reference set contains one peer-reviewed conference proceeding and nine journal/data-descriptor articles; publication type is retained in the ledger. This is a focused source set, not a systematic or exhaustive review. The George et al. full text remains to be checked before using claims beyond the abstract-level description recorded above.
+
+## Historical provenance and exclusions
+
+| Source | Previous use | Current disposition |
+|---|---|---|
+| Tangermann et al. (2012), DOI 10.3389/fnins.2012.00055 | Earlier 1.1 and 1.2 | Excluded under 2022-onward policy. Removed from active sections; retained in historical RIS and backup |
+| Pfurtscheller et al. (2006), DOI 10.1016/j.neuroimage.2005.12.003 | Earlier 1.2 | Excluded. Detailed ERD/ERS and montage claims omitted rather than assigned an unsupported replacement |
+| Banville et al. (2022), DOI 10.1016/j.neuroimage.2022.118994 | Earlier problem statements | Date-eligible but not cited in current drafts. Publisher access blocked in prior pass; no current claim is attributed to it |
+
+Proposal citations to 2026 Haridharan, Mulder, Xing/Nagarajan and Liu records remain unresolved and are not imported or used for claims. No novelty conclusion is drawn from their absence.
+
+## Search and access record
+
+2 November 2026: focused searches and source inspection across PubMed, PMC, publisher pages (Frontiers, Nature, Wiley, Elsevier, MDPI), IEEE, and the Graz BCI conference/university repository. Search topics included session variability, channel reduction, asynchronous/rest screening, selective uncertainty, robotic control and assistive MI-BCI evidence. Some pages were blocked or rate-limited; original abstracts or author/conference PDFs were used where available. This search was not systematic: it has no exhaustive protocol, deduplicated search export or dual screening. It is sufficient to establish a relevant ten-source starting set, not to claim comprehensive coverage.
+
+The previous ledger and source provenance are preserved in the dated migration backup.

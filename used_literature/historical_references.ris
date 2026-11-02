@@ -1,0 +1,71 @@
+TY  - JOUR
+TI  - Review of the BCI Competition IV
+AU  - Tangermann, Michael
+AU  - Müller, Klaus-Robert
+AU  - Aertsen, Ad
+AU  - Birbaumer, Niels
+AU  - Braun, Christoph
+AU  - Brunner, Clemens
+AU  - Leeb, Robert
+AU  - Mehring, Carsten
+AU  - Miller, Kai J.
+AU  - Müller-Putz, Gernot R.
+AU  - Nolte, Guido
+AU  - Pfurtscheller, Gert
+AU  - Preissl, Hubert
+AU  - Schalk, Gerwin
+AU  - Schlögl, Alois
+AU  - Vidaurre, Carmen
+AU  - Waldert, Stephan
+AU  - Blankertz, Benjamin
+PY  - 2012
+JO  - Frontiers in Neuroscience
+VL  - 6
+SP  - 55
+DO  - 10.3389/fnins.2012.00055
+UR  - https://doi.org/10.3389/fnins.2012.00055
+ER  -
+
+TY  - JOUR
+TI  - Mu rhythm (de)synchronization and EEG single-trial classification of different motor imagery tasks
+AU  - Pfurtscheller, Gert
+AU  - Brunner, Clemens
+AU  - Schlögl, Alois
+AU  - Lopes da Silva, Fernando H.
+PY  - 2006
+JO  - NeuroImage
+VL  - 31
+IS  - 1
+SP  - 153
+EP  - 159
+DO  - 10.1016/j.neuroimage.2005.12.003
+UR  - https://doi.org/10.1016/j.neuroimage.2005.12.003
+ER  -
+
+TY  - JOUR
+TI  - An EEG-based asynchronous MI-BCI system to reduce false positives with a small number of channels for neurorehabilitation: A pilot study
+AU  - Song, Minsu
+AU  - Jeong, Hojun
+AU  - Kim, Jongbum
+AU  - Jang, Sung-Ho
+AU  - Kim, Jonghyun
+PY  - 2022
+JO  - Frontiers in Neurorobotics
+VL  - 16
+SP  - 971547
+DO  - 10.3389/fnbot.2022.971547
+ER  -
+
+TY  - JOUR
+TI  - Robust learning from corrupted EEG with dynamic spatial filtering
+AU  - Banville, Hubert
+AU  - Wood, Sean U. N.
+AU  - Aimone, Chris
+AU  - Engemann, Denis-Alexander
+AU  - Gramfort, Alexandre
+PY  - 2022
+JO  - NeuroImage
+VL  - 251
+SP  - 118994
+DO  - 10.1016/j.neuroimage.2022.118994
+ER  - 

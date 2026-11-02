@@ -1,37 +1,43 @@
-# Research viability: wearable EEG artifact-category identification
+# Research viability: live personal-data MI-BCI
 
-**Overall verdict: PROVISIONAL; physical prototype BLOCKED.** The general research direction is scientifically relevant, but broad category-classifier novelty is no longer defensible after Palmisciano et al. (2026). A narrow subject-disjoint and compute-aware benchmark on TUAR is testable conditionally, but its originality and suitability for the DCE capstone require supervisor approval.
+Authority: ../goal.md. Updated 2 November 2026. Proposed work only; equipment ownership, data collection and approvals are not established.
 
-## Research gap and contribution
+## Current assessment
 
-Arpaia et al. (2025) found only two category/source studies in its review through 24 April 2025, including Inoue et al. and Zhang et al. That review does not cover later work. Palmisciano et al. (2026) already report a low-density dry eyewear pipeline with detection, three-category classification, correction and leave-one-subject-out evaluation (29 participants). A separate 2026 local-global classifier uses five TUAR categories and a private epilepsy cohort, although its public-data split is random 80:20 rather than subject-disjoint as reported. Zhang et al. already describe staged category-aware single-channel artifact removal.
+On 2 November 2026 the researcher reported finding PiEEG-8 for US$100 and confirmed that all remaining equipment, accessories, delivery and import costs fit within a total US$200 budget. The project is financially feasible on this supplied costing. No independent verification of that supplier price or itemised quotation is asserted. The remaining balance after the board is US$100; actual allocations are not invented.
 
-Therefore, do not claim first artifact classifier, first wearable category identification, first three-class wearable model, or first gated pipeline. Candidate contribution: compare a compact feature-based and compact neural baseline under identical TUAR subject-disjoint splits while measuring macro-F1/balanced accuracy, model size and CPU latency. This is an engineering benchmark, not a new algorithm or wearable validation. Whether it is sufficiently original is **uncertain**; the cited closest studies do not prove the precise comparison absent.
+This replaces the previous US$300 allowance and the assumption that the manufacturer list price determines the project's acquisition cost. Technical compatibility, complete-system safety acceptance, institutional ethics authorization and the 16-week schedule still require validation.
 
-## Data and software feasibility
+## Historical manufacturer evidence and technical documentation
 
-TUAR v3.0.1 supplies five named artifact labels, but access is application-based and requires account registration, SSH key setup and rsync. It is clinical EEG, not a wearable dataset. Before method development, verify access terms, identities, per-record channel/montage, overlapping labels, class counts and enough subjects for grouped testing. The published local-global study shows a TUAR workflow is possible, but does not establish this project's access or leakage-safe protocol.
+The listings below were inspected earlier on 2 November 2026. Their prices remain historical comparison evidence and are not the current procurement budget. Technical limitations remain relevant to assessment of the selected equipment.
 
-A two-model CPU benchmark and stored-data replay demonstrator are computationally plausible; measure runtime on the actual computer. The local-global paper used an RTX 3090 for a larger network, so avoid copying its architecture or presuming its compute footprint. Software feasibility cannot satisfy the physical-prototype condition.
+| Item | Evidence inspected 2 November 2026 | Limits |
+|---|---|---|
+| PiEEG-8 | [Manufacturer product](https://www.pieeg.com/hardware/pieeg): US$350, eight channels plus reference/bias, ADS1299, Raspberry Pi support | Board only. Manufacturer redirects purchasing to Elecrow; seller page returned 403, so stock and delivery were not verified |
+| PiEEG-8 documentation | [Device documentation](https://docs.pieeg.com/hardware/devices/pieeg-8/): 250 SPS default, Pi 4/5 support | Test the exact board/driver version and required acquisition configuration |
+| Human-connection safety | [Manufacturer safety](https://docs.pieeg.com/hardware/devices/pieeg-8/safety/): not regulator-certified for human use; prohibits mains connections while connected to a person | Manufacturer instructions do not establish institutional approval; assess all robot/computer connections |
+| Raspberry Pi 4 | [Official product specifications](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/): advertised from US$35 | Variant, ownership, stock and delivered quotation unresolved; base price is not the project cost |
+| Electrode cap alternatives | [Manufacturer catalog](https://www.pieeg.com/hardware): wet eight-channel cap kit US$350; dry kit US$370 | Illustrative alternatives, not selected purchases; a custom mount needs its own complete bill of materials |
 
-## Physical prototype gate
+Technical and purchasing evidence is separate from the academic citation register. These listed prices are not delivered quotations and do not prove stock. The earlier US$50 shortfall calculation applied to the superseded US$300 allowance and US$350 list-price assumption; it is not the current financial assessment. Do not total optional cap alternatives together.
 
-**BLOCKED under current evidence and US$300 total cap.** No complete acquisition configuration is confirmed within US$100–300 delivered to Zimbabwe. The previous OpenBCI estimate (Ganglion board US$624.99 + required dongle US$19.99 + electrodes from US$44.99) was already US$689.97 before conductive paste, leads/mounting needs, freight, customs and import. A board-only listing is not an EEG system. For artifact-category acquisition, placement depends on the target classes: frontal/near-eye positions help ocular events, temporal/face-adjacent sites help jaw/facial EMG, while motion and electrode-contact issues need appropriate placement and possibly reference sensors. A system with only a few channels cannot be presumed to support every category. It must expose raw time-series EEG, suitable sampling and synchronized labels, and include compatible electrodes, reference/ground, mounting, acquisition interface, safety documentation and full landed cost. No uncertified or unapproved human-recording setup is an acceptable substitute.
+## Procurement documentation and technical decisions
 
-No institutional device loan or lab access is confirmed. Supervisor decision required: authorize confirmed equipment access or additional resources, or revise the required physical-prototype scope formally. Until then, a replay tool is only a software artifact.
+Record the items covered by the researcher's confirmed costing, including Raspberry Pi resources, electrodes and reference/bias accessories, cables, headset, storage/power and robotic hardware. Preserve supplier records and distinguish owned, borrowed and purchased items. Check compatibility and document the complete connection and stopping arrangements. Record any assessment or replacement expenses as they arise and evaluate their effect on the US$200 ceiling. No financial return is claimed.
 
-## Validity, ethics and timeline
+## Safety, ethics and operational dependencies
 
-Use participant-disjoint and recording-grouped splits, non-overlapping windows, and training-only learned preprocessing/tuning. The primary metrics should include macro-F1, balanced accuracy and per-class recall, plus subject-level uncertainty and measured compute. Report label-overlap policy, class balance and exclusions. A clinical-dataset result cannot be described as wearable or BCI-benefit validation.
+Obtain an institutional decision and the required ethics authorization before self-recording. Have qualified personnel assess the complete human-connected acquisition system, including any communication path to externally powered computers or robotic equipment. No circuit-level safety approval is inferred here. Define supervision, informed consent, hygiene, skin/fatigue stopping rules and secure data retention.
 
-TUAR is clinical data. Follow access terms, secure storage and non-redistribution requirements; confirm whether University of Zimbabwe review or an exemption applies. Live human collection needs prior ethics approval and equipment safety review. Two-semester software work is plausible if access is timely; live prototype feasibility is not. Budgeted delivery/import quotes and institutional access are missing.
+A 16-week calendar cannot be confirmed without procurement and institutional lead times. The chart in Section 1.9 is a proposed dependency schedule. Complete approval preparation and bench/interface work early; reserve time for multiple recording occasions, failed sessions, calibration and live debugging. Unknown review durations must remain unknown.
 
-## Decisions for supervisor
+## Data feasibility and statistical contribution
 
-1. Is a reproducible subject-disjoint performance/compute benchmark sufficient original contribution, given Palmisciano and the 2026 TUAR study, or is a materially different research direction required?
-2. Is TUAR access/data use approved, and can corpus-level label/channel/participant audit begin under the applicable ethics determination?
-3. What complete, institutionally approved EEG system can be accessed for total delivered cost within US$300, or will the live physical prototype requirement/resources be formally changed?
+The exclusive personal-data policy means delayed acquisition delays both engineering and empirical science. No public dataset fallback is authorized. Pilot evidence must justify whether there are enough usable familiar-class trials and independent sessions to compare models/gates. Unfamiliar imagery needs separately acquired held-out tasks. Do not interpret many overlapping windows as a large independent sample.
 
-## Evidence limits
+One participant supports a documented case investigation, not population generalization. Report per-session variation, uncertainty appropriate to the available independent units, and the researcher/participant dual role. A supervisor must assess whether the bounded comparison and implemented artifact satisfy dissertation contribution requirements.
 
-Targeted primary-source checks through 29 October 2026; not a comprehensive novelty search. Arpaia and the 2026 local-global article full texts were inspected. Palmisciano abstract plus indexed publisher sections were reviewed; full code, independent reproduction and complete device details were not checked. Zhang publisher record/abstract was reviewed, not full methods. TUAR official access page was reviewed; the corpus data, license, class balances and annotation overlap were not inspected. No Zimbabwe shipping/import quote, local supplier, approved lab, ethics decision or safety certification was verified. Consensus quota was exhausted and Zotero local API access was denied in the earlier workspace audit; connector records are not used as claim evidence.
+## Contingency
+
+If no approved personal EEG can be acquired, report acquisition, empirical evaluation and live completion as blocked. Bench/interface simulation can document software work only. If authorized personal data become available but live integration fails, offline and replay findings remain partial outcomes. Resolve equipment, budget or schedule explicitly without redefining replay as the intended final product.
